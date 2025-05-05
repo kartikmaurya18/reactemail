@@ -10,7 +10,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-
+  const handleSubmit = async () => {
     setLoading(true);
     setError('');
     try {
