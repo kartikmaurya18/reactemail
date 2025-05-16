@@ -2,7 +2,6 @@ import { useState } from 'react'
 import './App.css'
 import { Box, Button, CircularProgress, Container, FormControl, InputLabel, MenuItem, Select, TextField, Typography } from '@mui/material';
 import axios from 'axios';
-
 function App() {
   const [emailContent, setEmailContent] = useState('');
   const [tone, setTone] = useState('');
